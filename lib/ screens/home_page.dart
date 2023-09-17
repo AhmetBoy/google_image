@@ -16,8 +16,8 @@ class _HomePageState extends State<HomePage> {
 
   Future<void> getProductInfo() async {
     final uri = Uri.https('www.googleapis.com', '/customsearch/v1', {
-      'key': 'AIzaSyDyGRKh8m8eXKN6ySVwh9RTHp6E5rc5xhk',
-      'cx': '037367c4aa37345cc',
+      'key': 'KEY',
+      'cx': 'CX',
       'q': '${textController!.text}',
     });
 
